@@ -1,0 +1,27 @@
+:root {
+  --primary-clr: #fcbf07;
+  --secondary-clr: #1b1b1b;
+
+  --white: #fff;
+  --black: #000;
+}
+
+
+.bg-primary{
+  background-color: #1b1b1b;
+}
+.bg-secondary{
+  background-color: #fcbf07;
+}
+
+.b-primary{
+  border: 1px solid #fcbf07a1;
+}
+
+.themeBtn-lg{
+  width: 100%;
+  padding: 20px;
+  color: #16171B;
+  background-color: var(--primary-clr);
+  border-radius: 50px;
+}

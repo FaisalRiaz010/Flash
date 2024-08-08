@@ -1,0 +1,33 @@
+.navbar-window {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-clr);
+    padding: 30px 50px;
+}
+
+
+.logo-window {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    color: var(--white);
+}
+
+.logo-window img {
+    width: 57px;
+    height: 50px;
+}
+
+.logo-window strong {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 700px) {
+    .navbar-window{
+        padding: 30px 10px;
+    }
+}
